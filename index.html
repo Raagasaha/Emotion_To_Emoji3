@@ -1,7 +1,7 @@
-
+ 
 <html>
   <head>
-    <title>Hand Gestures</title>
+    <title>Emotion To Emoji</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -17,36 +17,29 @@
   <div class="container">
   
     <center>
-<h3 class="btn btn-warning heading">-Common Hand Gestures-
+<h3 class="btn btn-warning heading">Emotion to Emoji App :)
   <br>
-  <span>&#128076;</span>
-  <span>&#128077;</span>
-  <span>&#129304;</span>
-  <span>&#9996;</span>
-  <span>&#128079;</span>
-  
+  <span>&#128522;</span>
+  <span>&#128512;</span>
+  <span>&#128532;</span>
+  <span>&#128546;</span>
+  <span>&#128545;</span>
+  <span>&#128548;</span>
 </h3>
       <br><br>
 
-      <p style="font-size: 22px;">Take a quick picture of one of the gestures below to learn about its meaning.
+      <p style="font-size: 22px;">Take your selfie to generate emoji
       	<br>
-        <hr>
-
-        <label id="label">The model is trained on the following gestures:</label>
-       
+        <b style="color: yellow">Are you Happy?</b>
+        <br>
+        <b style="color: black">Are you Sad?</b>
+        <br>
+        <b style="color: red">Are you Angry?</b>
+        <br>
       </p>
 
-      <span>&#128076;</span>
-  <span>&#128077;</span>
-  <span>&#129304;</span>
-  <span>&#9996;</span>
-
-
-  <br>
-  <br>
-
       <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label id="box_label">Webcam View - </label>
+	      <label>Webcam View - </label>
         <div id="camera"></div>
 
         <br><br>
@@ -57,17 +50,17 @@
   <label>Prediction #1- </label>
   <p class="emotion_name" id="result_emotion_name"></p>
   <p class="emoji" id="update_emoji"></p>
-<hr>
+
   <label>Prediction #2- </label>
   <p class="emotion_name" id="result_emotion_name2"></p>
   <p class="emoji" id="update_emoji2"></p>
 </div>
 
 <div class="col-md-4 col-sm-12 col-xs-12">
-  <label id="box_label">Snapshot  </label>
+  <label>~SNAPSHOT~  </label>
   <div id="result"></div>
   <br><br>
-  <button onclick="check();" class="btn btn-warning">Predict Emotion</button>
+  <button onclick="check()" class="btn btn-success">Predict Emotion</button>
 </div>
     </center>
 
@@ -79,3 +72,5 @@
 
   </body>
 </html>
+
+ 

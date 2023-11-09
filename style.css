@@ -1,7 +1,7 @@
 body
 {
-  color: burlywood;
-  background: rebeccapurple;
+  color: white;
+  background: #c0d3ff;
 }
 span
 {
@@ -29,19 +29,6 @@ span
   font-size: 18px;
   border-radius: 10px;
   letter-spacing: 10px;
-}
-#label{
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 20px;
-color:whitesmoke
-}
-
-#box_label{
-   color: mediumvioletred;
-   background-color: white;
-   border-radius: 15px;
-   border-width: 20px;
-   border-style:dashed;
 }
 
 
